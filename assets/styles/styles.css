@@ -564,7 +564,7 @@ footer{
 
     .ranking__item{
         flex-direction: column;
-
+        max-width: 90%;
     }
 
     .ranking__description,
@@ -621,5 +621,19 @@ footer{
 
 @media screen and (max-width:480px){
 
+    .ranking__container{
+        max-width: 90%;
+    }
+
+    .product__link,
+    video,
+    .contact__form{
+        width: 80%;
+    }
+
+    .icon-tabler{
+        right: 5px;
+        bottom: 15px;
+    }
 }
 
